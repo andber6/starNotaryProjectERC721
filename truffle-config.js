@@ -1,5 +1,5 @@
-const infuraKey = 'infuraKey....';
-const mnemonic = 'mnemonic...'
+const infuraKey = 'infuraKey ...';
+const mnemonic = 'mnemonic ...'
 const HDWalletProvider = require("truffle-hdwallet-provider");
 
 /**
