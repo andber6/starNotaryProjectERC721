@@ -1,13 +1,13 @@
-# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
-**PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
+# Ethereum Smart Contracts, Tokens and Dapps Project
 
-### ToDo
-This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
-
-
+### Prerequisites for submission
+- Truffle v5.4.13
+- openzeppelin-solidity version "^2.3.0"
+- ERC-721 token name is "BerganStar"
+- ERC-721 token symbol is "BGN"
+- My token address on the rinkeby network: "0xec851bd149e95a33e15128a728911ad1d329fc06"
 
 ### Dependencies
-For this project, you will need to have:
 1. **Node and NPM** installed - NPM is distributed with [Node.js](https://www.npmjs.com/get-npm)
 ```bash
 # Check Node version
@@ -17,7 +17,7 @@ npm -v
 ```
 
 
-2. **Truffle v5.X.X** - A development framework for Ethereum. 
+2. **Truffle ^v5.0.2** - A development framework for Ethereum. 
 ```bash
 # Unsinstall any previous version
 npm uninstall -g truffle
@@ -89,7 +89,7 @@ npm run dev
 ---
 
 ### Important
-When you will add a new Rinkeyby Test Network in your Metamask client, you will have to provide:
+When you will add a new Rinkeby Test Network in your Metamask client, you will have to provide:
 
 | Network Name | New RPC URL | Chain ID |
 |---|---|---|
@@ -127,12 +127,3 @@ compilers: {
     // docker: true,
     // ...
 ```
-
-## Raise a PR or report an Issue
-1. Feel free to raise a [Pull Request](https://github.com/udacity/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/pulls) if you find a bug/scope of improvement in the current repository. 
-
-2. If you have suggestions or facing issues, you can log in issue. 
-
----
-
-Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
