@@ -10,9 +10,13 @@
     "@truffle/hdwallet-provider": "^1.5.0",
     "openzeppelin-solidity": "^2.3.0",
     "truffle": "^5.0.2",
-    "truffle-hdwallet-provider": "^1.0.17"
+    "truffle-hdwallet-provider": "^1.0.17",
+    "webpack-cli": "^2.1.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^5.56.0",
+    "webpack-dev-server": "^4.3.0"
+  },
   "scripts": {
     "test": "mocha"
   },
