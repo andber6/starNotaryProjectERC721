@@ -1,5 +1,12 @@
 # Ethereum Smart Contracts, Tokens and Dapps Project
 
+### Prerequisites for submission
+- Truffle v5.4.13
+- openzeppelin-solidity version "^2.3.0"
+- ERC-721 token name is "BerganStar"
+- ERC-721 token symbol is "BGN"
+- My token address on the rinkeby network: "0xec851bd149e95a33e15128a728911ad1d329fc06"
+
 ### Dependencies
 1. **Node and NPM** installed - NPM is distributed with [Node.js](https://www.npmjs.com/get-npm)
 ```bash
